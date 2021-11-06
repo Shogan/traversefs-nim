@@ -9,6 +9,24 @@ hierarchy to JSON. This is my first attempt at writing something in the [Nim lan
 
 ## Usage
 
+```
+traversefs
+
+Usage:
+  traversefs [-p | --pretty] [-r | --recurse] PATH
+
+Arguments:
+  PATH          The path to begin traversing
+
+Options:
+  -h --help     Show this screen.
+  --version     Show version.
+  -p --pretty   Pretty print JSON
+  -r --recurse  Recusively traverse paths.
+```
+
+For example:
+
 Output a target path in the filesystem (as well as it's contents) as a JSON string:
 
 `traversefs PATH`
